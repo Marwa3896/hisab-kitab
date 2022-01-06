@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('pic1.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+    .left img {
+        width: 120px;
+        /* filter: invert(100%); */
+        color:0px ;
+    }
+    .mid {
+        display: block;
+        width: 100%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .form-group img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-block-start: 170px;
+        /* filter: invert(100%); */
+        display: block;
+        width: 15%;
+        padding: 1px;
+        border-radius: 8px;
+        
+    }
+
+    .container h1 {
+        text-align: center;
+       color: white;
+    }
+
+    .container button {
+        display: block;
+        width: 20%;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 8px;
+        border: 2px solid black;
+    }
+    .container button:hover{
+        color: rgb(5, 5, 5);
+    }
+
+    .navbar {
+        display: inline-block;
+        width: 70%;
+        position: relative;
+        left: 185px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color:white;
+        text-decoration: none;
+        padding: 10px 10px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(161, 88, 4);
+
+    }
+    .btn02 {
+        margin: 0px 5px;
+        width: 100px;
+        background-color: white;
+        padding: 4px 14px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn {
+        margin: 0px 5px;
+        width: 60px;
+        background-color: white;
+        /* color: white; */
+        padding: 4px ;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(161, 88, 4);
+        color: black;
+    }
+        .box {
+    margin-left:70px;
+    width: 300px;
+    border-bottom: 20px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top:100px;
+    
+    }
+    
+    .box h2 {
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    
+    .box ul {
+    position: relative;
+    background: #fff;
+    }
+    
+    .box ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px;
+    transition:  transform 0.5s;
+    }
+    .box ul:hover li{
+    opacity: 0.8;
+    }
+    .box ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: rgb(161, 88, 4);
+    box-shadow: 0 5px 25px;
+    color: #fff;
+    }
+    .box ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: rgb(161, 88, 4);
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translate(-20px);
+    
+    }
+    .box ul li:hover span{
+    color: rgb(161, 88, 4);
+    background: rgb(161, 88, 4);
+    }
+    #dv{
+        position:absolute;
+        top:65px;
+        left:400px;
+    
+        
+    }
+    #dv1{
+        position:absolute;
+        top:65px;
+        left:800px;
+        
+    }
+    .Discription{
+        text-align: left;
+        margin: 80px;
+        
+    }
+    .Date{
+        text-align: left;
+        margin: 80px;
+    }
+    .Amount{
+        
+        text-align: left;
+        margin: 80px;
+    }
+
+    .btn1{
+        text-size-adjust:-4px;
+        background-color: white;
+        color: black;
+        padding: 4px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 120px;
+        margin-left: 70px;
+    }
+    .btn1:hover {
+        background-color: rgb(161, 88, 4);
+        color: black;
+    }

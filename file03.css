@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+.co body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.contactC
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("pic1.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.contactC .contentC
+{
+    max-width: 500px;
+    text-align: center;
+}
+.contactC .contentC h2
+{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+}
+.contactC .contentC p
+{
+    font-weight: 300;
+    color: white;
+}
+.containerC
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.containerC .contactInfoC
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.containerC .contactInfoC .boxC
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.containerC .contactInfoC .boxC .iconC
+{
+    min-width: 40px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.containerC .contactInfoC .boxC .textC
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16%;
+    color: white;
+    flex-direction: colimn;
+    font-weight: 300;
+}
+.containerC .contactInfoC .boxC .textC h3
+{
+    font-size: x-large;
+    font-weight: 600;
+    color: #00bcd4;
+}
+.containerC .contactInfoC .boxC .textC p
+{
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+}
+.contactFormC
+{
+    width: 40%;
+    padding: 40px;
+    background: white;
+}
+.contactFormC h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactFormC .inputBoxC
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactFormC .inputBoxC input,
+.contactFormC .inputBoxC textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactFormC .inputBoxC span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #333;
+}
+.contactFormC .inputBoxC input:focus ~ span,
+.contactFormC .inputBoxC input:valid ~ span
+.contactFormC .inputBoxC textarea:focus ~ span,
+.contactFormC .inputBoxC textarea:valid ~ span
+{
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactFormC .inputBoxC input[type="submit"]
+{
+    width: 100px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991)
+{
+    .contactC
+    {
+        padding: 50px;
+    }
+    .containerC
+    {
+        flex-direction: column;
+    }
+    .containerC .contactInfoC
+    {
+        margin-bottom: 40px;
+    }
+    .containerC .contactInfoC,
+    .contactFormC
+    {
+        width: 100%;
+    }
+}
+
+
+*
+
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url("pic1.jpg");
+    min-height: 100vh;
+}
+.Ab section::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f0f, #0ff);
+    clip-path: circle(30% at right 70%);
+}
+.Ab section::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgb(148, 134, 5), rgb(248, 122, 3));
+    clip-path: circle(20% at 10% 10%);
+}
+.AboutA .contentA
+{
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.containerA
+{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.containerA .cardA
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.containerA .cardA .contentA
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.containerA .cardA:hover .contentA
+{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.containerA .cardA .contentA .imageBxA
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+}
+.containerA .cardA .contentA .imageBxA img
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.containerA .cardA .contentA .contentBxA h3
+{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+.containerA .cardA .contentA .contentBxA h3 span
+{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.containerA .cardA .sciA
+{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+.containerA .cardA .sciA li 
+{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+}
+.containerA .cardA:hover .sciA li
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.containerA .cardA .sciA li a
+{
+    color: white;
+    font-size: 24px;
+
+}
+
+
+.RR body
+{
+    background: url("pic1.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.containerR
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.containerR .boxR
+{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.containerR .boxR::before
+{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .2);
+    z-index: 2;
+    pointer-events: none;
+}
+.containerR .boxR .iconR
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+.containerR .boxR:nth-child(1) .iconR
+{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.containerR .boxR:nth-child(1):hover .iconR
+{
+    box-shadow: 0 0 0 400px #e91e63;
+}
+.containerR .boxR:nth-child(2) .iconR
+{
+    box-shadow: 0 0 0 0 #23e629;
+    background: #23e629;
+}
+.containerR .boxR:nth-child(2):hover .iconR
+{
+    box-shadow: 0 0 0 400px #23e629;
+}
+.containerR .boxR:nth-child(3) .iconR
+{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.containerR .boxR:nth-child(3):hover .iconR
+{
+    box-shadow: 0 0 0 400px #2196f3;
+}
+.containerR .boxR .contentR
+{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.containerR .boxR:hover .contentR
+{
+    color: white;
+}
+.containerR .boxR .contentR h3
+{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+.containerR .boxR .contsntR p
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
